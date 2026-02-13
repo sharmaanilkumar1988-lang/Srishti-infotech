@@ -14,7 +14,6 @@
         }
         .whatsapp-pulse { animation: pulse-green 2s infinite; }
         html { scroll-behavior: smooth; }
-        /* Ensuring QR stays sharp */
         .qr-render { 
             image-rendering: -webkit-optimize-contrast; 
             image-rendering: crisp-edges; 
@@ -35,6 +34,7 @@
                     <a href="#" class="hover:text-blue-600">Home</a>
                     <a href="#about" class="hover:text-blue-600">About</a>
                     <a href="#products" class="hover:text-blue-600">Products</a>
+                    <a href="#policy" class="hover:text-blue-600">Warranty</a>
                     <a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition-all">Contact Us</a>
                 </div>
             </div>
@@ -44,8 +44,8 @@
     <section class="bg-blue-900 text-white py-20 text-center">
         <div class="max-w-7xl mx-auto px-4">
             <span class="bg-blue-700 text-xs font-bold uppercase tracking-widest px-4 py-1 rounded-full mb-4 inline-block shadow-inner">Expansion 2026</span>
-            <h1 class="text-4xl md:text-6xl font-extrabold mb-6">Your One-Stop IT Partner</h1>
-            <p class="text-xl text-blue-100 mb-10 max-w-2xl mx-auto italic">Expert IT services, hardware sales, and technical support. Now open in **Burari** and **Azad Pur**.</p>
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 uppercase">SRISHTIINFOTECSERVICES</h1>
+            <p class="text-xl text-blue-100 mb-10 max-w-2xl mx-auto italic">Expert IT services & hardware sales. Now open in **Burari** and **Azad Pur**.</p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="#contact" class="bg-white text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-gray-100 shadow-lg transition-all">Visit Our Shop</a>
                 <a href="tel:9953350190" class="border-2 border-white px-8 py-3 rounded-full font-bold hover:bg-white hover:text-blue-900 transition-all">Call 9953350190</a>
@@ -56,23 +56,23 @@
     <section id="about" class="py-20 max-w-7xl mx-auto px-4">
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div>
-                <h2 class="text-3xl font-bold mb-6 text-gray-900 border-l-4 border-blue-600 pl-4">Reliable IT Solutions</h2>
-                <p class="text-lg text-gray-600 mb-4 font-medium text-blue-900">Owned & Operated by Anil Sharma</p>
-                <p class="text-lg text-gray-600 mb-6 leading-relaxed">SRISHTIINFOTECSERVICES delivers high-quality hardware and dependable technical services from our corporate office in Azad Pur and our newly launched retail shop in Burari.</p>
+                <h2 class="text-3xl font-bold mb-6 text-gray-900 border-l-4 border-blue-600 pl-4 uppercase">Reliable IT Solutions</h2>
+                <p class="text-lg text-blue-900 mb-4 font-bold italic underline decoration-blue-200 decoration-4">Owned & Operated by Anil Sharma</p>
+                <p class="text-lg text-gray-600 mb-6 leading-relaxed">Providing high-quality hardware and dependable technical services from our corporate office in Azad Pur and our newly launched retail shop in Burari.</p>
                 <div class="grid grid-cols-2 gap-4">
                     <div class="p-4 bg-white shadow-sm rounded-lg border-l-4 border-green-500">
                         <p class="font-bold">Sales</p>
-                        <p class="text-sm text-gray-500">Laptops & Desktops</p>
+                        <p class="text-sm text-gray-500 font-medium">Laptops & Desktops</p>
                     </div>
                     <div class="p-4 bg-white shadow-sm rounded-lg border-l-4 border-blue-500">
                         <p class="font-bold">Service</p>
-                        <p class="text-sm text-gray-500">Professional Repairs</p>
+                        <p class="text-sm text-gray-500 font-medium">Professional Repairs</p>
                     </div>
                 </div>
             </div>
             <div class="bg-blue-50 h-80 rounded-3xl border-2 border-dashed border-blue-200 flex flex-col items-center justify-center text-blue-400">
                 <i class="fa-solid fa-medal text-8xl mb-4"></i>
-                <p class="font-bold text-blue-600 tracking-widest uppercase text-center">TRUSTED SERVICE<br><span class="text-sm">Delhi IT Experts</span></p>
+                <p class="font-bold text-blue-600 tracking-widest uppercase text-center">TRUSTED SERVICE<br><span class="text-sm">SINCE 2024 — EXPANDING 2026</span></p>
             </div>
         </div>
     </section>
@@ -108,24 +108,26 @@
         </div>
     </section>
 
-    <section class="py-20 bg-white">
-        <div class="max-w-4xl mx-auto px-4">
-            <div class="bg-blue-900 rounded-3xl shadow-2xl overflow-hidden grid md:grid-cols-5">
-                <div class="md:col-span-2 bg-blue-800 p-10 text-white">
-                    <h2 class="text-3xl font-bold mb-6 underline decoration-blue-400 underline-offset-8">Book a Repair</h2>
-                    <p class="text-sm italic mb-8">Professional diagnostics for laptops, desktops, and networking.</p>
-                    <ul class="space-y-4 text-sm">
-                        <li><i class="fa-solid fa-shield-halved mr-2 text-green-400"></i> 90-Day Warranty</li>
-                        <li><i class="fa-solid fa-bolt mr-2 text-green-400"></i> Same-Day Service</li>
-                    </ul>
+    <section id="policy" class="py-16 bg-white border-t border-gray-100">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-10">
+                <i class="fa-solid fa-shield-check text-5xl text-blue-600 mb-4"></i>
+                <h2 class="text-3xl font-bold text-gray-900 uppercase">Service Guarantee</h2>
+                <p class="text-gray-500 mt-2 font-medium">Professionalism you can trust in Burari and Azad Pur</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 bg-blue-50 rounded-2xl border border-blue-100">
+                    <h3 class="font-bold text-blue-800 mb-3 uppercase text-sm"><i class="fa-solid fa-calendar-check mr-2"></i>90-Day Warranty</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed font-medium">90-day warranty on hardware repairs. If the same issue returns, we fix it for free.</p>
                 </div>
-                <div class="md:col-span-3 p-10 bg-white">
-                    <form action="thank-you.html" class="space-y-4">
-                        <input type="text" required placeholder="Your Name" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none">
-                        <input type="tel" required placeholder="Phone Number" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none">
-                        <textarea rows="3" required placeholder="Describe Device Issue" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none"></textarea>
-                        <button type="submit" class="w-full bg-blue-700 text-white font-bold py-3 rounded-lg hover:bg-blue-800 transition-all shadow-lg">Submit Repair Ticket</button>
-                    </form>
+                <div class="p-6 bg-blue-50 rounded-2xl border border-blue-100">
+                    <h3 class="font-bold text-blue-800 mb-3 uppercase text-sm"><i class="fa-solid fa-box-open mr-2"></i>Genuine Parts</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed font-medium">We only use high-quality certified parts for your laptops and desktops to ensure long-term performance.</p>
+                </div>
+                <div class="p-6 bg-blue-50 rounded-2xl border border-blue-100">
+                    <h3 class="font-bold text-blue-800 mb-3 uppercase text-sm"><i class="fa-solid fa-hand-holding-dollar mr-2"></i>No Fix, No Fee</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed font-medium">If we cannot diagnose or repair the primary issue, you don't pay for labor. Honest IT services by Anil Sharma.</p>
                 </div>
             </div>
         </div>
@@ -136,71 +138,9 @@
             <div class="inline-flex items-center justify-center space-x-1 text-yellow-400 mb-4 text-xl">
                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
             </div>
-            <h2 class="text-2xl font-bold text-gray-900 mb-2">Enjoying Our Service?</h2>
-            <p class="text-gray-600 mb-8">Please take a moment to rate **SRISHTIINFOTECSERVICES** on Google!</p>
-            
+            <h2 class="text-2xl font-bold text-gray-900 mb-2">Happy with our service?</h2>
+            <p class="text-gray-600 mb-8 font-bold">Rate **SRISHTIINFOTECSERVICES** on Google!</p>
             <a href="https://www.google.com/search?q=SRISHTIINFOTECSERVICES+Burari+Delhi+reviews" 
                target="_blank" 
                class="inline-flex items-center bg-white border-2 border-gray-200 text-gray-800 px-8 py-3 rounded-xl font-bold hover:border-blue-600 transition-all shadow-sm">
-                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" class="h-5 mr-3">
-                Rate us on Google
-            </a>
-        </div>
-    </section>
-
-    <section id="contact" class="bg-white py-20">
-        <div class="max-w-7xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-12 uppercase tracking-wide">Our Locations</h2>
-            <div class="grid md:grid-cols-2 gap-8 text-left">
-                <div class="bg-gray-50 p-8 rounded-2xl border-t-4 border-blue-600 shadow-sm flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-bold text-xl mb-2 flex items-center text-blue-700"><i class="fa-solid fa-store mr-2"></i>Shop Address (Main)</h3>
-                        <p class="text-gray-600 mb-6 font-medium">H.No, 2458, Gali No. 19, Block 8A,<br>Kaushik Enclave, A Block, Burari, Delhi 110084</p>
-                    </div>
-                    <a href="http://googleusercontent.com/maps.google.com/7" target="_blank" class="w-full text-center bg-blue-600 text-white py-3 rounded-xl font-bold hover:bg-blue-700 transition-all shadow-md">Navigate to Burari Shop</a>
-                </div>
-                <div class="bg-gray-50 p-8 rounded-2xl border-t-4 border-gray-400 shadow-sm flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-bold text-xl mb-2 flex items-center text-gray-700"><i class="fa-solid fa-building mr-2"></i>Registered Office</h3>
-                        <p class="text-gray-600 mb-6 font-medium">A-8 Gopal Nagar, Azad Pur,<br>Near SDM Office, Delhi 110033</p>
-                    </div>
-                    <a href="http://googleusercontent.com/maps.google.com/8" target="_blank" class="w-full text-center border-2 border-gray-300 text-gray-700 py-3 rounded-xl font-bold hover:bg-gray-100 transition-all">View Office Map</a>
-                </div>
-            </div>
-            <div class="mt-12 text-gray-500 font-bold">
-                <p>Call/WhatsApp: 9953350190</p>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-gray-900 text-gray-600 py-10 text-center text-sm uppercase tracking-widest">
-        <p>© 2026 SRISHTIINFOTECSERVICES | Built for the Future</p>
-    </footer>
-
-    <div class="hidden lg:block fixed bottom-6 left-6 z-[9999] group">
-        <div class="absolute -top-10 left-0 w-full text-center opacity-0 group-hover:opacity-100 transition-opacity">
-            <span class="bg-blue-700 text-white text-[10px] font-bold px-3 py-1 rounded-full shadow-lg">Click to Enlarge</span>
-        </div>
-        <div class="bg-white p-5 rounded-2xl shadow-2xl border border-gray-200 text-center transition-all hover:border-blue-500">
-            <a href="qr-code.png" target="_blank" class="block">
-                <div class="bg-white p-2 rounded-lg mb-2 flex items-center justify-center border border-gray-100" style="width: 130px; height: 130px;">
-                    <img src="qr-code.png" 
-                         alt="Scan to Visit" 
-                         class="w-full h-full object-contain cursor-zoom-in qr-render" 
-                         style="display: block; margin: auto;">
-                </div>
-                <p class="text-[10px] font-extrabold text-blue-700 uppercase tracking-widest flex items-center justify-center">
-                    <i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Open Clear View
-                </p>
-            </a>
-        </div>
-    </div>
-
-    <div class="fixed bottom-6 right-6 z-[9999]">
-        <a href="https://wa.me/919953350190?text=Hello%20SRISHTIINFOTECSERVICES,%20I%20have%20an%20IT%20requirement..." target="_blank" class="whatsapp-pulse bg-[#25D366] text-white flex items-center justify-center w-16 h-16 rounded-full shadow-2xl hover:scale-110 transition-transform">
-            <i class="fa-brands fa-whatsapp text-4xl"></i>
-        </a>
-    </div>
-
-</body>
-</html>
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt
